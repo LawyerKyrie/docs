@@ -21,6 +21,7 @@ useHead({
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
+  ogType: 'article', // Add this line
   twitterCard: 'summary_large_image'
 })
 
