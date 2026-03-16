@@ -70,7 +70,7 @@ const links = computed(() => {
       </template>
     </UPageHeader>
 
-    <UPageBody>
+    <UPageBody as="article">
       <ContentRenderer
         v-if="page"
         :value="page"
